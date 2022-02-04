@@ -1,0 +1,29 @@
+<section id="{{ section.section_id }}" class="page-section-smaller {{ section.background_style }}">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <h2 class="text-left">{{ section.title }}</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+          <iframe src="https://open.spotify.com/embed/episode/4ObKzCO4ftig8VRTDuK4XQ?utm_source=generator" width="100%" height="152" frameBorder="no" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+            <div class="mb-4 {{ section.text_style | default: "text-muted" }}">
+              {{ section.text | newline_to_br | markdownify }}
+            </div>
+      </div>
+    </div>
+  </div>
+
+</section>

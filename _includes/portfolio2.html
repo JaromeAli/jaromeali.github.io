@@ -1,0 +1,13 @@
+<div id="portfolio2" class="{{ section.background_style }}">
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      {% for proj in section.projects %}
+      <div class="col-lg-4 col-sm-6">
+        <a href="{{proj.url}}" class="portfolio-box">
+          <img src="assets/img/{{ proj.icon }}" class="img-fluid" alt="{{proj.alt}}"> 
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

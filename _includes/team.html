@@ -1,0 +1,48 @@
+<!-- Team -->
+<section class="page-section {{ section.background_style }}" id="{{ section.section_id | default: "team" }}">
+<div class="container">
+  <div class="row">
+  <div class="col-sm-1">
+  </div>
+	<div class="col-sm-10 text-center">
+	  <h2 class="text-white mt-0 text-left">{{ section.title }}</h2>
+    <hr class="divider light my-4" align="left">
+	  <!-- <div class="section-subheading col-lg-8 mx-auto text-center text-muted">{{ site.data.sitetext[site.locale].team.text }}</div> -->
+	</div>
+  </div>
+  <div class="row">
+  <div class="col-sm-1">
+  </div>
+  <div class="col-sm-6 text-white-50 mb-4"><br> {{ section.text | markdownify }}</div>
+  {% for person in section.people %}
+	<div class="col-sm-5 text-center" >
+	  <div class="team-member">
+		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="" style="width: 250px;">
+		<h4 class="text-white-50">{{ person.name }}</h4>
+		<p class="text-white-50 mb-4">{{ person.role }}</p>
+		<ul class="list-inline social-buttons">
+		{% for network in person.social %}
+		  <li class="list-inline-item">
+			<a href="{{ network.url }}">
+			  <i class="{{ network.icon }}"></i>
+			</a>
+		  </li>
+		{% endfor %}
+		</ul>
+	  </div>
+	</div>
+  {% endfor %}
+  </div>
+
+
+  <div class="col-sm-12" align="left">
+  {% include actions.html actions=section.actions %}
+  </div>
+<!---  <div class="row">
+	<div class="col-lg-8 mx-auto text-center">
+	  <div class="large text-muted">{{ section.subtext | markdownify }}</div>
+	</div>
+  </div>
+</div> --->
+</section>
+<!-- End Team -->

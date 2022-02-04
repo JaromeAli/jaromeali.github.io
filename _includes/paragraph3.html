@@ -1,0 +1,32 @@
+<section id="{{ section.section_id }}" class="page-section-smaller {{ section.background_style }}">
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-3">
+				</div>
+				<div class="col-md-2">
+					<h3>
+					</h3><img src="assets/img/{{section.graphic}}" alt="..." height="200px" width="200px" border="10px"/>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12">
+							<h3>
+								{{ section.title }}
+							</h3>
+							<p>
+                {{ section.text | newline_to_br | markdownify }}
+              </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</section>

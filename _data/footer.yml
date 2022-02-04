@@ -1,5 +1,10 @@
-copyright: '&copy; Start Bootstrap'
+copyright: 'Creative Jekyll theme by Start Bootstrap <br>
+Icons: parrot by Hai Studio, radio mast by Wuppidu, community by Adrien Coquet from The Noun Project'
+copyright2:
 links:
-  - text: Creative
+  - text: Start Bootstrap
     url: 'https://startbootstrap.com/themes/creative/'
+    new_window: true
+  - text: The Noun Project
+    url: 'https://thenounproject.com/'
     new_window: true

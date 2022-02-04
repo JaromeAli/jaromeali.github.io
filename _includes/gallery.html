@@ -1,0 +1,75 @@
+<section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
+  <div class="container">
+    <div class="row">
+  	<div class="col-sm-12 text-center">
+  	  <h2 class="text-white mt-0 text-center">INTERESTS</h2>
+      <hr class="divider light my-4" align="center">
+  	  <!-- <div class="section-subheading col-lg-8 mx-auto text-center text-muted">{{ site.data.sitetext[site.locale].team.text }}</div> -->
+  	</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-4 mb-3">
+        <div class="card">
+          <img
+            src="assets/img/research.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+            </p>
+            <a href="/research" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 mb-3">
+        <div class="card">
+          <img
+            src="assets/img/scicomm.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+            </p>
+            <a href="/scicomm" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 mb-3">
+        <div class="card">
+          <img
+            src="assets/img/outreach.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title"></h5>
+            <p class="card-text">
+            </p>
+            <a href="/outreach" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<div></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" align="center">
+      </div>
+      <div class="col-sm-12" align="center">
+      {% include actions.html actions=section.actions %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Carousel wrapper -->
