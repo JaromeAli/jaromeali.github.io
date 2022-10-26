@@ -49,7 +49,10 @@ sections:
   - type: publications.html
     section_id: publications
     items:
-      - title: "**Ali, J. R.**, Blonder, B, Pigot, A. L. & Tobias, J. A. (2022, in prep) Bird extinctions threaten to cause disproportionate reductions of functional diversity and uniqueness."
+      - title: "**Ali, J. R.**, Blonder, B, Pigot, A. L. & Tobias, J. A. (2022) Bird extinctions threaten to cause disproportionate reductions of functional diversity and uniqueness. Functional Ecology"
+        year: 2022
+        detail:
+      - title: "Tobias, J. A., ... , **Ali, J. R.**, ... & Schleuning, M. (2022). AVONET: morphological, ecological and geographical data for all birds. Ecology Letters, 25(3), 581-597."
         year: 2022
         detail:
       - title: "**Ali, J. R.**, Deacon, A. E., Mahabir, K., Ramnarine, I. W., & Magurran, A. E. (2018). Heterospecific shoaling in an invasive poeciliid: shared history does not affect shoal cohesion. Animal Behaviour, 138, 1-8."
