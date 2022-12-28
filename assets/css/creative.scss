@@ -4321,9 +4321,9 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #0a3543;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -6105,7 +6105,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #115870 !important;
+  background-color: #0a3543 !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,

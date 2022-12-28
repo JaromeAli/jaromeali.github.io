@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    x="0px"
    y="0px"
@@ -15,12 +8,19 @@
    xml:space="preserve"
    id="svg38"
    sodipodi:docname="noun_Parrot_2333036.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    width="650"
    height="350"
-   inkscape:export-filename="C:\Users\jarom\OneDrive\website\assets\img\research.png"
+   inkscape:export-filename="research.png"
    inkscape:export-xdpi="296.20001"
-   inkscape:export-ydpi="296.20001"><metadata
+   inkscape:export-ydpi="296.20001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata
      id="metadata44"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
@@ -38,14 +38,17 @@
      id="namedview40"
      showgrid="false"
      inkscape:zoom="1.185111"
-     inkscape:cx="363.81056"
-     inkscape:cy="106.887"
+     inkscape:cx="289.00246"
+     inkscape:cy="106.74106"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg38"
-     inkscape:document-rotation="0" /><rect
-     style="opacity:0.99;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.99999;paint-order:markers stroke fill"
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" /><rect
+     style="opacity:0.99;fill:none;fill-opacity:1;stroke:none;stroke-width:4.99999;paint-order:markers stroke fill"
      id="rect864"
      width="650"
      height="350"
@@ -101,7 +104,7 @@
              id="path26"
              style="fill:#ffffff;stroke-width:0.484143" /></g></g></g></g><text
      xml:space="preserve"
-     style="font-size:64px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;stroke-width:1"
+     style="font-size:64px;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#ffffff;stroke-width:1"
      x="189.71875"
      y="313.70761"
      id="text877"
@@ -114,4 +117,4 @@
        dy="0 0 0 0 0 0"
        rotate="0 0 0 0 0 0 0"
        dx="0 0 0 0 0 0"
-       style="font-size:64px;fill:#000000;stroke-width:1">RESEARCH</tspan></text></svg>
+       style="font-size:64px;fill:#ffffff;stroke-width:1">RESEARCH</tspan></text></svg>
